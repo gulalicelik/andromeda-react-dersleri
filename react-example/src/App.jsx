@@ -1,15 +1,24 @@
-import './App.css'
-import SampleComponent from './components/SampleComponent/SampleComponent.jsx';
+import './App.css';
+import JobCategoryCard from "./components/JobCategoryCard/JobCategoryCard.jsx";
+import myIcon1 from './assets/icon-test.svg';
+
 
 function App() {
 
-  return (
-    <>
-    <SampleComponent  name="Ali Çelik" city="İstanbul"  bgColor="#123123"/>
-    <SampleComponent  name="Veli Çelik" city="Kocaleli" bgColor="#213abc" />
-    <SampleComponent  name="Koca Çelik" city="Velieli"  bgColor="#435132"/>
-    </>
-  )
+    return (
+        <>
+            <div className="app-container">
+                <JobCategoryCard title="Hello" bgColor="#FFECEC" iconPath={myIcon1}/>
+                <JobCategoryCard title="Hello" bgColor="#FFECEC" iconPath={myIcon1}/>
+                <JobCategoryCard title="Hello" bgColor="#FFECEC" iconPath={myIcon1}/>
+                <JobCategoryCard title="Hello" bgColor="#FFECEC" iconPath={myIcon1}/>
+                <JobCategoryCard title="Hello" bgColor="#FFECEC" iconPath={myIcon1}/>
+                <JobCategoryCard title="Hello" bgColor="#FFECEC" iconPath={myIcon1}/>
+                <JobCategoryCard title="Hello" bgColor="#FFECEC" iconPath={myIcon1}/>
+                <JobCategoryCard title="Hello" bgColor="#FFECEC" iconPath={myIcon1}/>
+            </div>
+        </>
+    )
 }
 
 export default App

@@ -1,0 +1,18 @@
+.category-card{
+    width: 112px;
+    height: 108px;
+    background-color: #535bf2;
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title{
+    color: #281A51;
+    font-size: 16px;
+    font-weight: 600;
+}
