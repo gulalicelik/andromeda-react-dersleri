@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Samsung XS GALAXY NOTE 4",
+      "image_url": "https://productimages.hepsiburada.net/s/76/1100/110000018213462.jpg/format:webp",
+      "price": 350,
+      "rate": 2.4,
+      "stock": 20,
+      "category": "Phone",
+      "brand": "Samsung",
+      "color": "White"
+    },
+    {
+      "id": "3",
+      "name": "Nokia",
+      "image_url": "https://productimages.hepsiburada.net/s/76/1100/110000018213462.jpg/format:webp",
+      "price": 150,
+      "rate": 4.4,
+      "stock": 240,
+      "category": "Phone",
+      "brand": "Nokia",
+      "color": "blue"
+    }
+  ]
+}
